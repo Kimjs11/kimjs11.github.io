@@ -96,8 +96,8 @@ analytics:
 author:
   name             : "JinSu Kim"
   avatar           : "/img/logo.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Seoul, South Korea"
+  bio              : "I am a **Human**."
+  location         : "Gwang-Ju, South Korea"
   email            : "kimjinsu@gm.gist.ac.kr"
   links:
     #- label: "Email"
