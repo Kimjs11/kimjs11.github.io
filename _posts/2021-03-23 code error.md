@@ -9,7 +9,10 @@ categories: [Code Error]
 
 --------------------------
 ~~~
-IOPub data rate exceeded. The notebook server will temporarily stop sending output to the client in order to avoid crashing it. To change this limit, set the config variable `--NotebookApp.iopub_data_rate_limit`. Current values: NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec) NotebookApp.rate_limit_window=3.0 (secs)
+IOPub data rate exceeded. The notebook server will temporarily stop sending output <br/>
+to the client in order to avoid crashing it. To change this limit, set the config <br/>
+variable `--NotebookApp.iopub_data_rate_limit`. <br/>
+Current values: NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec) NotebookApp.rate_limit_window=3.0 (secs)
 ~~~
 <br/>
 쉽게 보면 출력 데이터 초과시 발생하는 오류, 처리 속도를 조절해 주면 된다.<br/>
