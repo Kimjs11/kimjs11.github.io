@@ -6,7 +6,6 @@ categories: [Code Error]
 ---
 <link rel = "stylesheet" href ="/static/css/bootstrap.min.css">
 
-
 --------------------------
 ~~~
 IOPub data rate exceeded. The notebook server will temporarily stop sending output <br/>
@@ -17,10 +16,11 @@ Current values: NotebookApp.iopub_data_rate_limit=1000000.0 (bytes/sec) Notebook
 <br/>
 쉽게 보면 출력 데이터 초과시 발생하는 오류, 처리 속도를 조절해 주면 된다.<br/>
 
-아래 사이트를 참고하여 해결하였습니다.<br/>
-https://stackoverflow.com/questions/43490495/how-to-set-notebookapp-iopub-data-rate-limit-and-others-notebookapp-settings-in?noredirect=1&lq=1
 --------------------------
 아래 명령어 입력해주면된다.<br/>
 ~~~
 jupyter notebook --NotebookApp.iopub_data_rate_limit=1e10
 ~~~~
+<br/>
+아래 사이트를 참고하여 해결하였습니다.<br/>
+https://stackoverflow.com/questions/43490495/how-to-set-notebookapp-iopub-data-rate-limit-and-others-notebookapp-settings-in?noredirect=1&lq=1
