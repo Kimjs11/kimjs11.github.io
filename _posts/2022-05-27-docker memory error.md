@@ -12,6 +12,9 @@ categories: [Code Error]
 RuntimeError: CUDA out of memory.
 ~~~
 <br/>
-
+~~~
+docker run --name jinsu -p 8888:8888 **--ipc=host** -v /mnt/disk0/:/root [image name]
+~~~
+docker run 실행시 --ipc=host를 <br/>
 참고사이트<br/>
 https://curioso365.tistory.com/136
