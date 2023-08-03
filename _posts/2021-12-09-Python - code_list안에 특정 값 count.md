@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "(1)code_list안에 특정 값 count"
+title:  "Python - code_list안에 특정 값 count"
 date:   2021-12-09 09:00:20 +0700
 categories: [Code]
 ---
